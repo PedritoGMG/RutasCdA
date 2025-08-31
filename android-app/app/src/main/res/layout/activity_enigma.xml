@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    tools:context=".v2.activities.EnigmaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/borderwhite"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/textView5"
+                style="@style/headerText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Resuelve el Enigma" />
+
+            <LinearLayout
+                android:id="@+id/layoutEnigma"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:background="@drawable/borderwhite"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewEnigNombre"
+                    style="@style/primaryText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:text="TextView" />
+
+                <TextView
+                    android:id="@+id/textViewEnigDescripcion"
+                    style="@style/secondaryText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:justificationMode="none"
+                    android:text=" Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en demostraciones de tipografías o de borradores de diseño para probar el diseño visual antes de insertar el texto final.  Wikipedia " />
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <EditText
+                    android:id="@+id/editTextEnigRespuesta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="15dp"
+                    android:layout_weight="0"
+                    android:ems="10"
+                    android:hint="Respuesta"
+                    android:inputType="text" />
+
+                <Button
+                    android:id="@+id/buttonEnigResponder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:layout_weight="0"
+                    android:text="Responder" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

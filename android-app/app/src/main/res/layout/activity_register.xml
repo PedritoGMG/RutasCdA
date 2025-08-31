@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    tools:context=".v2.activities.RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/borderwhite"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/headerText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="25dp"
+                android:gravity="center"
+                android:text="Sing in" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <EditText
+                android:id="@+id/editTextRegName"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:hint="Nombre de Usuario"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/editTextRegUserID"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="25dp"
+                android:ems="10"
+                android:hint="UserID"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/editTextRegPassword"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/editTextRegPasswordRep"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:ems="10"
+                android:hint="Repeat the Password"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/textView6"
+                style="@style/captionText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="No usar Contraseñar Personales"
+                android:textSize="10sp" />
+
+            <Button
+                android:id="@+id/buttonRegRegistrarse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="Registrarse" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

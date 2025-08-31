@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFF</color>
+
+    <color name="blueAPP">#0071FF</color>
+    <color name="whiteAPP">#eceeff</color>
+
+    <color name="primary">#0071FF</color> <!-- Color principal o destacado -->
+    <color name="secondary">#003F7A</color> <!-- Azul oscuro para botones secundarios o fondos -->
+    <color name="background">#F4F9FF</color> <!-- Fondo general de la aplicación -->
+    <color name="background2">#E1E1E1</color> <!-- Fondo general de la aplicación -->
+    <color name="iconBackground">#FFFFFF</color> <!-- Fondo para el icono -->
+    <color name="primaryText">#222222</color> <!-- Texto principal -->
+    <color name="secondaryText">#555555</color> <!-- Texto secundario -->
+    <color name="buttonText">#FFFFFF</color> <!-- Texto en botones -->
+    <color name="accent">#FFAB00</color> <!-- Color de acento para elementos que necesiten resaltar -->
+    <color name="divider">#E0E0E0</color> <!-- Líneas divisoras -->
+
+    <color name="redBorder">#F44336</color>
+    <color name="redBackground">#FFF4F4</color>
+
+    <color name="yellowBorder">#F4B836</color>
+    <color name="yellowBackground">#FFFBF4</color>
+
+    <color name="greenBorder">#4CAF50</color>
+    <color name="greenBackground">#F4FFF4</color>
+
+
+</resources>

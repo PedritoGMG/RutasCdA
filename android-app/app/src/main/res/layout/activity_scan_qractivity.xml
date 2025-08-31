@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    tools:context=".v2.activities.ScanQRActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/borderwhite"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                style="@style/headerText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="25dp"
+                android:gravity="center"
+                android:text="Escanea el QR de la Actividad" />
+
+            <TextView
+                android:id="@+id/textViewQRNombreAct"
+                style="@style/primaryText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView7"
+                style="@style/secondaryText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Para escanear el QR, necesitas estar en la siguiente ubicacion:" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:orientation="vertical">
+
+                <WebView
+                    android:id="@+id/webQRGPS"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/borderwhite">
+
+                </WebView>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/buttonScanQR"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/ic_launcher_background"
+                android:enabled="false"
+                android:text="Escanear QR"
+                app:icon="@android:drawable/ic_menu_camera"
+                app:iconSize="32dp"
+                app:iconTint="@color/white"
+                app:iconTintMode="multiply" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemVolver"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:title="Volver" />
+    <item
+        android:id="@+id/itemInicio"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:title="Inicio" />
+    <item
+        android:id="@+id/itemInfo"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="Info" />
+</menu>
